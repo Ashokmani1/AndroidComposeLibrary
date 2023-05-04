@@ -12,7 +12,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.sampleapps.androidcomposelibrary.ui.theme.AndroidComposeLibraryTheme
-import com.sampleapps.image_preview.ImagePreview
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    ImagePreview(image = R.drawable.ic_launcher_foreground)
+                        Text("a")
                 }
             }
         }
